@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+        }
+
+        header {
+            background-color: rgb(163, 159, 153);
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav > ul {
+            padding: 10px;
+            display: flex;
+            background-color: rgb(126, 123, 119);
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.35);
+        }
+
+        nav > ul > li {
+            list-style: none;
+            margin: 0 5px;
+        }
+
+        nav > ul > li > a{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        nav > ul > li > a:hover {
+            text-decoration: underline;
+            background-color: rgb(54, 53, 51);
+            
+        }        
+
+        main {
+            background-color: rgb(163, 159, 153);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: rgb(228, 232, 253);
+            border-radius: 10px;
+            padding: 1px 10px;
+            margin: 10px 0;
+        }
+
+        article > aside {
+            background-color: rgb(192, 202, 254);
+            border-radius: 10px;
+            padding: 1px 10px;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+
+        div#ball {
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            background-image: url('me.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <secion id="content">
+            <h1>Testando meu site!</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod officia voluptate atque est expedita veniam assumenda repudiandae, nam voluptatum fugit aspernatur! Blanditiis facere ut vitae. Consectetur distinctio cumque ipsa pariatur.</p>
+        </secion>
+        <section id="news">
+            <article>
+                <h2>Brasil na copa</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab explicabo blanditiis sint delectus eligendi quae molestiae quasi enim, dolor voluptatum quidem aliquid corporis velit commodi possimus nisi ducimus ipsam!</p>
+                <aside>Artigo escrito por Lorem</aside>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dolorem repudiandae. Culpa expedita officiis voluptate, inventore vero, et reprehenderit, sit ea provident eligendi nesciunt in? Corrupti accusamus aperiam exercitationem id!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Leonardo Xavier</p>
+    </footer>
+    <div id="ball"></div>
+</body>
+</html>

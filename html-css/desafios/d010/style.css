@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Android';
+    src: url('assets/fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    text-indent: 2em;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #68DD79, #28552F);
+    color: white;
+}
+
+header > h1  {
+    text-align: center;
+    padding: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 1px 1px black;
+}
+
+header > p {
+    text-align: center;
+    padding: 1.1em;
+    font-family: sans-serif;
+    color: inherit;
+    text-shadow: 2px 1px 1px black;
+}
+
+header > nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+header > nav > ul > li {
+    padding: 0 1em;
+}
+
+header > nav > ul > li > a {
+    color: rgb(168, 241, 149);
+    text-decoration: none;
+}
+
+main {
+    background-color: #9ceba8;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1.5em;
+}
+
+main > section > article{
+    background-color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+}
+
+article > h1, article > h2, article > div, article > p {
+    margin: 0.5em;
+}
+
+footer {
+    background-color: #28552F;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    padding: 1.3em 1em;
+}
+
+.title {
+    font-family: 'Android';
+    font-weight: normal;
+    color: #28552F;
+}
+
+.sub-title {
+    background-image: linear-gradient(to right, rgb(168, 241, 149), white);
+    font-family: 'Android';
+    font-weight: normal;
+    color: #28552F;
+}
+
+.destaque {
+    color: #28552F;
+    font-weight: bolder;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-video {
+    background-color: #387741;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+    padding: 1.5em;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: min-content;
+}
+
+article#final-block {
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+.block-title {
+    color: whitesmoke;
+    background-color: #28552F;
+    border-radius: 0.5em 0.5em 0 0;
+    margin-bottom: 0;
+    padding: 0.6em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+}
+
+.block {
+    background-color: #a3dfac;
+    border-radius: 0 0 0.5em 0.5em;
+    margin-top: 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+}
+
+.block > p {
+    padding: 1em;
+}
+
+.container-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10em;
+}
+
+.grid {
+    padding: 2em;
+}

@@ -1,0 +1,39 @@
+@charset "UFT-8";
+
+body {
+    background-color: rgb(135, 210, 185);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #1D592E;
+}
+
+h1#main {
+    text-align: center;
+    background-color: #2A8544;
+    color: white;
+}
+
+h2 {
+    color: #2A8544;
+}
+
+.basic {
+    color: #2A8544;
+    font-weight: bold;
+}
+
+.intermediary {
+    color: #71852a;
+    font-weight: bold;
+}
+
+.advanced {
+    color: #852a2a;
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: rgba(142, 162, 68, 0.438);
+}

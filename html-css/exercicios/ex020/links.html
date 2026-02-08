@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .special {
+            background-color: aquamarine;
+        }
+
+        .special::before {
+            content: '-> ';
+        }
+
+        .special::after {
+            content: ' <-';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/leonardoxaviercf" target="_blank" class="special">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/leonardoxaviercf/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/lxavi3r/"target="_blank">Instagran</a></li>
+    </ul>
+</body>
+</html>
