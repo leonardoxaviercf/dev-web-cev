@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Kalam:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Kalam, Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Usar vw como altura não é tão recomendado para resposividade, porém para o objetivo do exercício, onde não podemos usar media queries, é uma opção viável */
+header h1 {
+    font-family: "Fascinate Inline";
+    font-size: 10vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header p {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 2em;
+}
+
+section p {
+    font-weight: bold;
+    font-size: 3.5vw;
+    line-height: 2em;
+    display: inline-block;
+}
+
+section.bg-image p {
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+
+}
+
+.bg-white {
+    background-color: white;
+    
+}
+
+.bg-image {
+    background-color: darkslategrey;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.396);
+}
+
+.bg-image p {
+    background-color: rgba(0, 0, 0, 0.242);
+    color: white;
+}
+
+#img1 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+
+}
+
+#img2 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: center center;
+}
+
+footer {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
