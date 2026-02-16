@@ -16,20 +16,19 @@
 
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
-        }
-
-        .linha {
-            background-color: grey;
-        }
-
-        .dado {
-            background-color: rebeccapurple;
         }
 
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /* Alinhamento horizontal */
+            vertical-align: middle; /* Alinhamento vertical [top-middle-bottom] */
+        }
+
+        .numero {
+            text-align: right;
         }
     </style>
 </head>
@@ -42,20 +41,20 @@
                 TABLE DATA = Dado de tabela
     -->
     <table>
-        <tr class="linha"> <!-- Primeira linha --> 
+        <tr> <!-- Primeira linha --> 
             <td> A1 </td>
             <td> B1 </td>
             <td> C1 </td>
         </tr>
         <tr>
-            <td class="dado"> A2 </td>
+            <td> A2 </td>
             <td> B2 </td>
-            <td> C2 </td>
+            <td class="numero"> 230 </td>
         </tr>
         <tr>
             <td> A3 </td>
             <td> B3 </td>
-            <td> C3 </td>
+            <td class="numero"> 320 </td>
         </tr>
         <tr>
             <td> A4 </td>

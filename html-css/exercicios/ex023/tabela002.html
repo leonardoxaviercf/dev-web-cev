@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+            border: 1px solid black;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        thead, tfoot {
+            background-color: grey;
+            color: white;
+        }
+
+        thead tr th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lightgrey;
+
+        }
+        
+        tbody tr:nth-child(odd) {
+            background-color: white;
+
+        }
+
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- Anatomia para tabelas grandes
+            TABLE
+                CAPTION
+                THEAD
+                    TR, TD, TH
+                TBODY
+                    TR, TD, TH
+                TFOOT
+                    TR, TD, TH            
+    -->
+
+    <table>
+        <caption>Populaçao das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>84.352.783</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta rem provident, impedit reiciendis cupiditate commodi sed! Earum fugit error nam, quos facilis ex consequuntur, optio natus expedita nisi velit minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate praesentium eos? Quos accusamus esse quas, accusantium corrupti sequi inventore voluptatum quasi? Excepturi soluta sunt eos aperiam ab pariatur ducimus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione voluptatem labore cumque voluptas, saepe eos itaque odio maxime deleniti recusandae ab error doloremque eius esse eum, accusamus nobis, alias asperiores.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta rem provident, impedit reiciendis cupiditate commodi sed! Earum fugit error nam, quos facilis ex consequuntur, optio natus expedita nisi velit minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate praesentium eos? Quos accusamus esse quas, accusantium corrupti sequi inventore voluptatum quasi? Excepturi soluta sunt eos aperiam ab pariatur ducimus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione voluptatem labore cumque voluptas, saepe eos itaque odio maxime deleniti recusandae ab error doloremque eius esse eum, accusamus nobis, alias asperiores.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta rem provident, impedit reiciendis cupiditate commodi sed! Earum fugit error nam, quos facilis ex consequuntur, optio natus expedita nisi velit minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate praesentium eos? Quos accusamus esse quas, accusantium corrupti sequi inventore voluptatum quasi? Excepturi soluta sunt eos aperiam ab pariatur ducimus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione voluptatem labore cumque voluptas, saepe eos itaque odio maxime deleniti recusandae ab error doloremque eius esse eum, accusamus nobis, alias asperiores.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta rem provident, impedit reiciendis cupiditate commodi sed! Earum fugit error nam, quos facilis ex consequuntur, optio natus expedita nisi velit minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate praesentium eos? Quos accusamus esse quas, accusantium corrupti sequi inventore voluptatum quasi? Excepturi soluta sunt eos aperiam ab pariatur ducimus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione voluptatem labore cumque voluptas, saepe eos itaque odio maxime deleniti recusandae ab error doloremque eius esse eum, accusamus nobis, alias asperiores.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta rem provident, impedit reiciendis cupiditate commodi sed! Earum fugit error nam, quos facilis ex consequuntur, optio natus expedita nisi velit minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate praesentium eos? Quos accusamus esse quas, accusantium corrupti sequi inventore voluptatum quasi? Excepturi soluta sunt eos aperiam ab pariatur ducimus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione voluptatem labore cumque voluptas, saepe eos itaque odio maxime deleniti recusandae ab error doloremque eius esse eum, accusamus nobis, alias asperiores.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta rem provident, impedit reiciendis cupiditate commodi sed! Earum fugit error nam, quos facilis ex consequuntur, optio natus expedita nisi velit minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate praesentium eos? Quos accusamus esse quas, accusantium corrupti sequi inventore voluptatum quasi? Excepturi soluta sunt eos aperiam ab pariatur ducimus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione voluptatem labore cumque voluptas, saepe eos itaque odio maxime deleniti recusandae ab error doloremque eius esse eum, accusamus nobis, alias asperiores.
+    </p>
+</body>
+</html>
